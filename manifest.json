@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "News Bar",
+  "description": "This extension displays a bar, which can contain RSS, above all HTML pages.",
+  "version": "1.0",
+
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_popup": "popup.html"
+  },
+
+  "offline_enabled": false,
+
+  "permissions": [
+    "storage",
+    "http://feeds.feedburner.com/",
+    "http://timesofindia.indiatimes.com/",
+    "http://timesofindia.feedsportal.com/",
+    "http://economictimes.indiatimes.com/",
+    "http://www.thehindu.com/news/?service=rss",
+    "http://feeds.arstechnica.com/arstechnica/index",
+    "http://feeds.betanews.com/bn",
+    "https://news.google.co.in/?output=rss"
+  ]
+}
